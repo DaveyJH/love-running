@@ -132,7 +132,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-about {
@@ -147,10 +146,19 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
+/* following is consolidated from video https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/12ba169db7b34b82b137edd825af6a02/?child=first */
+div[class*="-about-heading"] {
     width: 60%;
-    float: right;
     line-height: 20px;
     clear:both;
     margin-bottom: 50px;
+}
+
+.left-about-heading {
+    float: right;
+}
+
+.right-about-heading {
+   float: left;
+   text-align: right;
 }
