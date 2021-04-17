@@ -33,21 +33,27 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-/* #menu, #logo {
-    line-height: 75px;
-} */
+/* floating the ul right and the li left negates the need to re-order html */
 
-/* floating the ul right and the li left and display: inline negates the need to re-order html */
-
-/* #menu ul {
+#menu ul {
     float: right;
-} */
-
-#menu li {
-    /* float: left; */
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    /* display: inline; */
 }
 
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
