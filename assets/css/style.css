@@ -321,6 +321,10 @@ footer {
     margin-right: 10px;
 }
 
+#invisible {
+    visibility: hidden;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1200px and down */
