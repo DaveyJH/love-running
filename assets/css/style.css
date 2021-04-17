@@ -75,6 +75,16 @@ h1, h2 {
     color: #ffffff;
 }
 
+#cover-text p {
+    font-size: 1.17em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -396,7 +406,7 @@ footer {
     }
 }
 
-/* stops times encroaching on club-ethos image */
+/* stops times encroaching on club-ethos image from 450px */
 @media screen and (max-width: 450px) {
     #circle-container {
         margin-bottom: 20px;
@@ -404,12 +414,12 @@ footer {
     #cover-text {
         max-width: 100%;
     }
-    #cover-text h2, #cover-text h3 {
+    #cover-text h2, #cover-text p {
         margin-right: 10px;
     }
 }
 
-/* causes elipse of image to prevent horizonal scroll on small devices */
+/* causes elipse of image to prevent horizonal scroll on small devices from 420px */
 @media screen and (max-width: 420px) {
     #circle-container {
         width: 80%;
@@ -417,6 +427,14 @@ footer {
     }
 }
 
+/* stop text overflowing box from 250px */
+@media screen and (max-width: 250px) {
+    #cover-text h2 {
+        margin-bottom: -20px;
+    }
+}
+
+/* gallery columns down to 1 from 235px */
 @media screen and (max-width: 235px) {
     #photos {
         column-count: 1;
