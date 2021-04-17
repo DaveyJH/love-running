@@ -33,15 +33,21 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+/* #menu, #logo {
+    line-height: 75px;
+} */
+
 /* floating the ul right and the li left and display: inline negates the need to re-order html */
 
-#menu ul {
+/* #menu ul {
     float: right;
-}
+} */
 
 #menu li {
-    float: left;
-    list-style-type: none;
+    /* float: left; */
+    float: right;
     margin-right: 30px;
-    display: inline;
+    list-style-type: none;
+    /* display: inline; */
 }
+
