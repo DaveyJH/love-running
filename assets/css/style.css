@@ -398,8 +398,8 @@ footer {
 
 /* stops times encroaching on club-ethos image */
 @media screen and (max-width: 450px) {
-    #times {
-        margin-top: 20px;
+    #circle-container {
+        margin-bottom: 20px;
     }
 }
 
@@ -407,6 +407,7 @@ footer {
 @media screen and (max-width: 420px) {
     #circle-container {
         width: 80%;
+        padding: 20px;
     }
 }
 
