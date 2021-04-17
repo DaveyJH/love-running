@@ -351,7 +351,7 @@ footer {
     }
 }
 
-/* for medium to smaller screens from 950px widoe and down */
+/* for medium to smaller screens from 950px wide and down */
 @media screen and (max-width: 950px) {
     #menu {
         clear: left;
@@ -388,7 +388,6 @@ footer {
     #photos {
         column-count: 3;
     }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -396,3 +395,18 @@ footer {
         column-count: 2;
     }
 }
+
+/* stops times encroaching on club-ethos image */
+@media screen and (max-width: 450px) {
+    #times {
+        padding-top: 20px;
+    }
+}
+
+/* causes elipse of image to prevent horizonal scroll on small devices */
+@media screen and (max-width: 420px) {
+    #circle-container {
+        width: 80%;
+    }
+}
+
