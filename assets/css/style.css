@@ -443,6 +443,7 @@ footer {
 @media screen and (max-width: 235px) {
     #photos {
         column-count: 1;
+        min-width: 214px;
     }
 }
 
