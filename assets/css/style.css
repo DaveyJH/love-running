@@ -399,7 +399,7 @@ footer {
 /* stops times encroaching on club-ethos image */
 @media screen and (max-width: 450px) {
     #times {
-        padding-top: 20px;
+        margin-top: 20px;
     }
 }
 
