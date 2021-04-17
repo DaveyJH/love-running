@@ -401,6 +401,12 @@ footer {
     #circle-container {
         margin-bottom: 20px;
     }
+    #cover-text {
+        max-width: 100%;
+    }
+    #cover-text h2, #cover-text h3 {
+        margin-right: 10px;
+    }
 }
 
 /* causes elipse of image to prevent horizonal scroll on small devices */
