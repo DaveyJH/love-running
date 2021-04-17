@@ -295,6 +295,22 @@ footer {
     color: #f16c6b;
 }
 
+.signup-form ul {
+    float: right;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup-form li {
+    float: left;
+    width: 33%;
+}
+
+.signup-form label {
+    margin-right: 10px;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1200px and down */
